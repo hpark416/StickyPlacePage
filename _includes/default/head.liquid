@@ -21,8 +21,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-    <!--Favicon-->
-    <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
+    <!-- Favicon -->
+    <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/svg+xml">
+    <link rel="shortcut icon" href="{{ site.favicon | relative_url }}">
 
     <!-- Preconnect to Cusdis for faster loading when comments become visible -->
     {% if site.data.comments.cusdis.app_id or site.comments.cusdis_app_id or site.cusdis_app_id %}

@@ -3,10 +3,10 @@ baseurl: "/StickyPlacePage"
 url: "https://hpark416.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Sticky Place Page                                 # site's title
-description: "Sticky Place project site"                 # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+title: StickyPlace                                       # site's title
+description: "Transparent tacky pad for PCB workflows"   # used by search engines
+avatar: assets/img/stickyplace/logo-mark.svg            # Empty for no avatar in navbar
+favicon: assets/img/favicon/stickyplace-favicon.svg     # Icon displayed in the tab
 
 # Header and footer text
 header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text

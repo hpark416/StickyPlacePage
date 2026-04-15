@@ -5,6 +5,8 @@
 
 :root {
   --sp-accent: #2563eb;
+  --sp-accent-2: #14b8a6;
+  --sp-accent-3: #f59e0b;
   --sp-accent-soft: #dbeafe;
   --sp-ink: #0f172a;
   --sp-muted: #475569;
@@ -40,10 +42,27 @@ body {
   margin-bottom: 1.25rem;
   font-size: clamp(1.5rem, 2.1vw, 2rem);
   letter-spacing: -0.02em;
+  position: relative;
+  padding-bottom: 0.45rem;
+}
+
+.sp-section h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 72px;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--sp-accent), var(--sp-accent-2));
 }
 
 .sp-section:nth-of-type(2n) {
   background: #f8fbff;
+}
+
+.sp-section:nth-of-type(3n) {
+  background: #f8fafc;
 }
 
 .sp-kicker {
@@ -71,8 +90,8 @@ body {
   grid-template-columns: 1.1fr 1fr;
   gap: 1.5rem;
   align-items: center;
-  background: linear-gradient(125deg, #eff6ff 0%, #ffffff 64%);
-  border-color: #bfdbfe;
+  background: linear-gradient(135deg, #e8f1ff 0%, #eefcf9 55%, #ffffff 100%);
+  border-color: #93c5fd;
 }
 
 .sp-hero-media img {
@@ -115,13 +134,14 @@ body {
 }
 
 .sp-btn-secondary {
-  background: #ffffff;
+  background: #eff6ff;
   color: var(--sp-ink);
-  border-color: var(--sp-border);
+  border-color: #bfdbfe;
 }
 
 .sp-btn-secondary:hover {
   color: var(--sp-ink);
+  box-shadow: 0 8px 20px rgba(20, 184, 166, 0.18);
 }
 
 .sp-grid {
@@ -159,6 +179,7 @@ body {
   margin: 0.1rem 0 0.45rem;
   font-size: 1.05rem;
   letter-spacing: -0.01em;
+  color: #0b3a93;
 }
 
 .sp-card p {
@@ -198,6 +219,7 @@ body {
   border-radius: 12px;
   border: 1px solid var(--sp-border);
   background: #fff;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
 }
 
 .sp-gallery-item img {
@@ -237,7 +259,7 @@ body {
   width: 0.72rem;
   height: 0.72rem;
   border-radius: 50%;
-  background: var(--sp-accent);
+  background: linear-gradient(135deg, var(--sp-accent), var(--sp-accent-2));
 }
 
 .sp-timeline-item h3 {
@@ -269,7 +291,7 @@ body {
   border: 1px solid #bfdbfe;
   border-radius: 16px;
   padding: 1.25rem;
-  background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%);
+  background: linear-gradient(135deg, #eff6ff 0%, #ecfeff 45%, #fffbeb 100%);
 }
 
 .site-header {

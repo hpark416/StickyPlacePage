@@ -41,3 +41,6 @@ jekyll-theme-type-on-strap.gemspec
 *copy.md
 test/*
 /type-on-strap*/*
+
+# Local-only media scratch area (not committed)
+/local-media/
