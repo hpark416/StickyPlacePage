@@ -9,8 +9,8 @@ position: 2
 
 We are two Georgia Tech students building StickyPlace:
 
-- **Parastoo Mosayebi**
-- **Hyeongjin Park**
+- **Hyungjun Park**
+- **Pouriya Mosayebi**
 
 We care about tools that make electronics work less frustrating and more reliable for students.
 
@@ -25,3 +25,5 @@ We wanted something practical and low overhead: a transparent, reusable surface 
 Georgia Tech's Invention to Prototype (I2P) program supports students in turning ideas into working prototypes through hands-on design, testing, and iteration.
 
 StickyPlace grew through that process: identify a real problem, build quickly, test in real workflows, and improve.
+
+Our I2P mentor: **Marty Jacobson**.
