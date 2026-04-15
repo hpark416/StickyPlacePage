@@ -2,13 +2,26 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/travel.jpeg"
-tags: [Page]
+position: 2
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+## Who we are
 
-Head over to the [theme's documentation](https://github.com/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+We are two Georgia Tech students building StickyPlace:
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+- **Parastoo Mosayebi**
+- **Hyeongjin Park**
+
+We care about tools that make electronics work less frustrating and more reliable for students.
+
+## How StickyPlace started
+
+StickyPlace started from repeated PCB lab pain points: tiny parts sliding around, orientation checks taking too long, and components disappearing between stations.
+
+We wanted something practical and low overhead: a transparent, reusable surface that helps us stage and align parts before soldering.
+
+## About Georgia Tech I2P
+
+Georgia Tech's Invention to Prototype (I2P) program supports students in turning ideas into working prototypes through hands-on design, testing, and iteration.
+
+StickyPlace grew through that process: identify a real problem, build quickly, test in real workflows, and improve.
